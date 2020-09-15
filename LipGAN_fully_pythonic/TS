@@ -1,0 +1,16 @@
+sudo sh
+cd /Users/jim/PycharmProjects/pyworkspace36/LipGAN_fully_pythonic
+python batch_inference.py --checkpoint_path /Users/jim/PycharmProjects/pyworkspace36/LipGAN_fully_pythonic/logs/lipgan_residual_mel.h5 --model residual  --face /Users/jim/PycharmProjects/pyworkspace36/LipGAN_fully_pythonic/train/xfsy_0055.png --audio /Users/jim/PycharmProjects/pyworkspace36/LipGAN_fully_pythonic/train/COUNTRY_ROAD.mp3 --results_dir /Users/jim/PycharmProjects/pyworkspace36/LipGAN_fully_pythonic/results
+
+
+sudo sh
+cd /Users/jim/PycharmProjects/pyworkspace36/GanLearn/LipGAN_fully_pythonic
+python batch_inference.py --checkpoint_path /Users/jim/PycharmProjects/pyworkspace36/GanLearn/LipGAN_fully_pythonic/logs/lipgan_residual_mel.h5 --model residual  --face /Users/jim/PycharmProjects/pyworkspace36/GanLearn/LipGAN_fully_pythonic/train/xfsy_0055.png --audio /Users/jim/PycharmProjects/pyworkspace36/GanLearn/LipGAN_fully_pythonic/train/COUNTRY_ROAD.mp3 --results_dir /Users/jim/PycharmProjects/pyworkspace36/GanLearn/LipGAN_fully_pythonic/results
+
+cd /home/wtleescan/PycharmProjects/pythonProject36/LipGAN_fully_pythonic
+python LipGAN_fully_pythonic/batch_inference.py --checkpoint_path /home/wtleescan/PycharmProjects/pythonProject36/LipGAN_fully_pythonic/logs/lipgan_residual_mel.h5 --model residual  --face /home/wtleescan/PycharmProjects/pythonProject36/LipGAN_fully_pythonic/train/xfsy_0055.png --audio /home/wtleescan/PycharmProjects/pythonProject36/LipGAN_fully_pythonic/train/COUNTRY_ROAD.mp3 --results_dir /home/wtleescan/PycharmProjects/pythonProject36/LipGAN_fully_pythonic/results
+
+
+sudo sh
+cd /Users/jim/PycharmProjects/pyworkspace36/GanLearnAI/LipGAN_fully_pythonic
+python batch_inference.py --checkpoint_path /Users/jim/PycharmProjects/pyworkspace36/GanLearnAI/LipGAN_fully_pythonic/logs/lipgan_residual_mel.h5 --model residual  --face /Users/jim/PycharmProjects/pyworkspace36/GanLearnAI/LipGAN_fully_pythonic/train/xfsy_0055.png --audio /Users/jim/PycharmProjects/pyworkspace36/GanLearnAI/LipGAN_fully_pythonic/train/COUNTRY_ROAD.mp3 --results_dir /Users/jim/PycharmProjects/pyworkspace36/GanLearnAI/LipGAN_fully_pythonic/results
